@@ -1,0 +1,115 @@
+<?php
+foreach($this->selectedproduct as $spp){
+
+}
+//print_r($this->sorted);
+// foreach($this->sorted as $sxx){
+// echo $sxx->name;
+// }
+
+foreach($this->sorted as $qqq){
+
+}
+
+foreach($this->subsorted as $rrr){
+
+}
+?>
+<div class="row" style="margin-top: 20px;">
+    <div class="col-sm-4">
+        <img src="<?php echo base_url() ?>admin783/public/images/product/<?php echo $spp->image1 ?>" class="img-responsive img-thumbnail" style="margin-left: 10%;">
+    </div>
+    <div class="col-sm-5">
+        <h4 class="title secondary-color"><?php echo ucfirst($spp->name) ?></h4>
+
+
+        <p><strong>Category: </strong><a href="<?php echo base_url() ?>dashboard/displaySortedProduct/<?php echo $spp->category_id?>" class="container-link">
+        <?php echo ucfirst($qqq->name);?>
+         </a> / <a href="<?php echo base_url() ?>dashboard/displaySortedSubProduct/<?php echo $spp->subcategory_id?>" class="container-link"><?php echo ucfirst($rrr->name) ?></a></p>
+            <p><strong>Country: </strong><?php echo strtoupper($spp->country) ?></p>
+                    <div class="description">
+                <?php echo $spp->description ?>
+            </div>
+            <div class="price">
+                <h2>Rs. <?php echo $spp->price ?></h2>
+            </div>
+
+
+            <!-- add to cart suru -->
+            <form action="<?php echo base_url() ?>cart/addtocart" method="post" accept-charset="utf-8">
+            <input type="text" name="product_id" value="<?php echo $spp->id ?>">
+
+            <input type="text" name="discount" value="<?php echo $spp->discount ?>">
+
+
+            <input type="text" name="color" value="<?php echo $spp->color ?>">
+            <!-- <input type="text" name="total" value="<?php echo "$totalprice"?>"> -->
+            <input type="text" name="url" value="<?php echo $spp->slug ?>-<?php echo $spp->id ?>.html">
+            <p class="text-center buttons">
+                <button type="submit" class="btn btn-primary"><i class="fa fa-shopping-cart"></i> Add to cart</button>
+            </p>
+
+   <!--  <div class="col-sm-3 text-center">
+        <h3 class="title secondary-color">Rs. 5,700</h3>
+            <div class="center-content">
+            <div class="input-group quantity-box">
+                                    <span class="input-group-btn">
+                        <button class="btn btn-default minus" type="button">-</button>
+                    </span>
+
+                                <input readonly="readonly" class="form-control text-center" placeholder="Quantity" value="1" data-id="6084302811" type="text">
+                                           <span class="input-group-btn">
+                        <button class="btn btn-default plus" type="button">+</button>
+                    </span>
+
+                            </div>
+                <button type="button" class="btn addCart btn-cheers" style="margin-bottom: 10px;">Place Order</button>
+            </div>
+    </div> -->
+</div>
+<div ng-controller="addcontrol">
+   <table>
+<tr>
+  <th></th><th><h4>Quantity</h4></th>
+</tr>
+   <tr ng-repeat="number in numbers">
+       <td><input type="hidden" ng-model="number.val" class="form-control"></td>
+       <td><input type="number" name="quantity" class="form-control" style="width:60px;" ng-model="number.qty"></td>
+
+   </tr>
+   </table>
+   <h2>Total: Rs. {{total()}}</h2>
+   <?php //$totalprice="<script>total();</script>";
+  ?>
+     <button type="submit" name="processtotal" class="btn btn-normal">Process it</button>
+
+
+
+ </div>
+</form>
+</div>
+ <?php /*if (isset($_POST['processtotal'])) {
+$finalquantity=$_POST['totalprice'];
+
+}*/
+?>
+<!-- angularjs suru -->
+ <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.16/angular.min.js"></script>
+   <script>
+   var price = <?php echo json_encode($spp->price); ?>;
+     var app = angular.module('app', [])
+     .controller('addcontrol', function($scope) {
+       $scope.numbers = [{
+         val: price,
+         qty: 1,
+       }];
+
+       $scope.total = function(){
+         var total = 0;
+         angular.forEach($scope.numbers, function(num) {
+           total += (num.val * num.qty);
+         });
+         return total;
+       }
+     })
+   </script>
