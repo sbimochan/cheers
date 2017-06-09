@@ -63,8 +63,9 @@ class DashboardController extends Controller{
         $this->loadView('dashboard/register');
   }
   function details($slug){
-//print_r($slug);
+//    print_r($slug);
     //print_r($category_id);
+
     $category= $this->loadModel('category',true);
      $product= $this->loadModel('product',true);
     $this->menuitem = $category->selectMainMenu();
@@ -75,9 +76,19 @@ class DashboardController extends Controller{
   $this->selectedproduct=$product->selectDetails($slug);
 
   //$this->sorted=$category->categoryNamevia($slug);
-
-  $this->sorted=$category->nameOfCategory($slug);
-  $this->subsorted=$category->nameOfsubCategory($slug);
+//print_r($category->nameOfCategory($slug));
+//  $this->sorted=$product->nameOfCategory($slug);
+$x= $product->nameOfCategory($slug);
+    foreach ($x as $y){
+        $z=$y->category_id;
+    }
+    $this->sorted = $category->nameOfC($z);
+//  $this->subsorted=$product->nameOfsubCategory($slug);
+      $a = $product->nameofsubCategory($slug);
+      foreach ($a as $b){
+          $c=$b->subcategory_id;
+      }
+      $this->subsorted=$category->nameOfSC($c);
     $this->selectedsubmenu=$category->selectSelectedsubmenu();
 
         $this->loadView('dashboard/details');

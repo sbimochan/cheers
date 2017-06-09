@@ -77,26 +77,27 @@ class CategoryModel extends Model{
         $sql="select * from tbl_category where role='subcategory'";
         return $this->select($sql);
     }
-    public function nameOfCategory(){
-        $sql="select * from tbl_category where slug='$this->slug' AND
-        role='category'";
-        return $this->select($sql);
-    }
-    public function nameOfSubCategory(){
-        $sql="select * from tbl_category where slug='$this->slug' and
-        role='subcategory'";
-        return $this->select($sql);
-    }
+
+
     public function selectSelectedsubmenu(){
         $sql="select * from tbl_category where slug='$this->slug' and
         role='subcategory'";
         return $this->select($sql);
     }
-    public function categoryName(){
-        $sql="select * from tbl_category where id='$this->id' and
+    public function categoryName($category_id){
+        $sql="select * from tbl_category where id='$category_id' and
         role='category'";
         return $this->select($sql);
     }
+    public function nameOfC($z){
+        $sql = "select * from tbl_category where id='$z' and role='category'";
+        return $this->select($sql);
+    }
+    public function nameOfSC($c){
+        $sql = "select * from tbl_category where id='$c' and role='subcategory'";
+        return $this->select($sql);
+    }
+
 }
 
 

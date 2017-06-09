@@ -14,6 +14,7 @@ foreach($this->sorted as $qqq){
 foreach($this->subsorted as $rrr){
 
 }
+
 ?>
 <div class="row" style="margin-top: 20px;">
     <div class="col-sm-4">
