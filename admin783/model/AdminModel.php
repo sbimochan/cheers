@@ -3,7 +3,7 @@ class AdminModel{
 	public $id,$name,$username,$email,$password,$salt,$status,$last_login;
 	function checkEmail(){
 	     $sql= "select * from tbl_admin where email='$this->email' and status='1'";
-	     $conn = new mysqli('localhost','root','','cheersdb');
+	     $conn = new mysqli('localhost','root','toor','cheersdb');
 	     if($conn->connect_errno !=0){
 	     	die('Database connection error');
 	     }
@@ -16,7 +16,7 @@ class AdminModel{
 	}
 	public function updateLastLogin(){
 		$sql = "update tbl_admin set last_login='$this->last_login' where email='$this->email'";
-		$conn = new mysqli('localhost','root','','cheersdb');
+		$conn = new mysqli('localhost','root','toor','cheersdb');
 		if($conn->connect_errno !=0){
 			die('Database connection error');
 		}

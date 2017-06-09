@@ -14,7 +14,7 @@
         <p><i class="fa fa-map-pin"></i> 210, Aggarwal Tower, Rohini sec 9, New Delhi -        110085, INDIA</p>
         <p><i class="fa fa-phone"></i> Phone (India) : +91 9999 878 398</p>
         <p><i class="fa fa-envelope"></i> E-mail : info@webenlance.com</p>
-
+        
       </div>
       <div class="col-md-2 col-sm-6 paddingtop-bottom">
         <h6 class="heading7">GENERAL LINKS</h6>
@@ -51,7 +51,7 @@
 <div class="copyright">
   <div class="container">
     <div class="col-md-6">
-      <p>© <?php echo date('Y') ?> - All Rights with SBimochan</p>
+      <p>© <?php echo date('Y') ?> - All Rights with SBimochans</p>
     </div>
     <div class="col-md-6">
       <ul class="bottom_ul">
@@ -73,11 +73,11 @@ _________________________________________________________ -->
 <script src="<?php echo base_url() ?>public/js/jquery-1.11.0.min.js"></script>
 <script src="<?php echo base_url() ?>public/js/bootstrap.min.js"></script>
 <!-- <script src="<?php echo base_url() ?>public/js/jquery.cookie.js"></script> -->
-<!-- <script src="<?php echo base_url() ?>public/js/waypoints.min.js"></script>-->
+<!-- <script src="<?php echo base_url() ?>public/js/waypoints.min.js"></script>
 <script src="<?php echo base_url() ?>public/js/modernizr.js"></script>
 <script src="<?php echo base_url() ?>public/js/bootstrap-hover-dropdown.js"></script>
 
-<script src="<?php echo base_url() ?>public/js/front.js"></script>
+<script src="<?php echo base_url() ?>public/js/front.js"></script> -->
 </body>
 
 </html>

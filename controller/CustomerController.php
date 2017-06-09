@@ -10,7 +10,7 @@ class CustomerController extends Controller{
 		@session_start();
 		$this->cart->session_id = session_id();
 		$this->view->cartitem = $this->cart->selectCurrentCartItem();
-		$this->view->catlist = $this->category->selectAllActiveMainCategory();
+		$this->view->cartlist = $this->category->selectAllActiveMainCategory();
 		$this->view->subcatlist = $this->category->selectAllActiveSubcategory();
 	}
 
@@ -33,10 +33,10 @@ class CustomerController extends Controller{
 
 				$p = base_url(). '/customer/verify/' . $this->customer->verify_key;
 				$link = "Your Registration Success, Verify From Email<a href='$p' target='blank' >Click Here</>";
-				 $_SESSION['success_message'] =$link; 
+				 $_SESSION['success_message'] =$link;
 				 //mail(to, subject, message)
 			} else {
-				 $_SESSION['error_message'] ="Error"; 
+				 $_SESSION['error_message'] ="Error";
 			}
 
 			$this->redirect("customer/login");
@@ -64,10 +64,10 @@ class CustomerController extends Controller{
 					$_SESSION['customer_id'] = $cdata[0]->id;
 					$this->redirect('cart/checkout');
 				} else {
-					$_SESSION['error_message'] ="Invalid Password"; 
+					$_SESSION['error_message'] ="Invalid Password";
 				}
 			} else {
-				$_SESSION['error_message'] ="Invalid Username/Email"; 
+				$_SESSION['error_message'] ="Invalid Username/Email";
 			}
 		}
 		// $this->cart->product_id = $_POST['product_id'];
@@ -89,19 +89,19 @@ class CustomerController extends Controller{
 		// 	$this->cart->id = $ci[0]->id;
 		// 	$status = $this->cart->updateCartQuantity();
 		// 	if ($status) {
-		// 		$_SESSION['success_message'] ="Quantity Updated to cart"; 
+		// 		$_SESSION['success_message'] ="Quantity Updated to cart";
 		// 	} else {
-		// 		$_SESSION['error_message'] ="quantity can not update to cart"; 
+		// 		$_SESSION['error_message'] ="quantity can not update to cart";
 		// 	}
 		// } else {
 		// 	$status = $this->cart->saveCart();
 		// 	if ($status) {
-		// 		$_SESSION['success_message'] ="$_POST[url] added to cart"; 
+		// 		$_SESSION['success_message'] ="$_POST[url] added to cart";
 		// 	} else {
-		// 		$_SESSION['error_message'] ="Item can not added to cart"; 
+		// 		$_SESSION['error_message'] ="Item can not added to cart";
 		// 	}
 		// }
-		
+
 		// $this->redirect("dashboard/product/$_POST[url]");
 		$this->view->loadView('customer/register');
 	}
@@ -116,9 +116,9 @@ class CustomerController extends Controller{
 		$this->cart->id = $id;
 		$st = $this->cart->deleteCartItem();
 		if ($st) {
-			$_SESSION['success_message'] ="Item Deleted From Cart"; 
+			$_SESSION['success_message'] ="Item Deleted From Cart";
 		} else {
-			$_SESSION['error_message'] ="Item can not Delete from cart"; 
+			$_SESSION['error_message'] ="Item can not Delete from cart";
 		}
 		$this->redirect("cart/details");
 	}
@@ -129,9 +129,9 @@ class CustomerController extends Controller{
 		$this->cart->quantity = $_POST['quantity'];
 		$status = $this->cart->updateCartQuantity();
 		if ($status) {
-				$_SESSION['success_message'] ="Quantity Updated to cart"; 
+				$_SESSION['success_message'] ="Quantity Updated to cart";
 			} else {
-				$_SESSION['error_message'] ="quantity can not update to cart"; 
+				$_SESSION['error_message'] ="quantity can not update to cart";
 			}
 			$this->redirect("cart/details");
 	}
@@ -151,14 +151,14 @@ class CustomerController extends Controller{
 		if (count($cust) == 1) {
 			$st = $this->customer->activateAccount();
 			if ($st) {
-				$_SESSION['success_message'] ="Your Account is  Activated, You can login now"; 
+				$_SESSION['success_message'] ="Your Account is  Activated, You can login now";
 			} else {
-				$_SESSION['error_message'] ="Customer Can not Activated"; 
+				$_SESSION['error_message'] ="Customer Can not Activated";
 			}
 			$this->redirect('customer/login');
 
 		} else {
-			$_SESSION['error_message'] ="Verify key Not Matched"; 
+			$_SESSION['error_message'] ="Verify key Not Matched";
 		}
 	}
 
@@ -169,7 +169,7 @@ class CustomerController extends Controller{
 		$this->redirect('customer/login');
 	}
 
-	
+
 }
 
 ?>

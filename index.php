@@ -3,6 +3,7 @@ require_once "admin783/config/config.php";
 require_once "admin783/libs/controller.php";
 require_once "admin783/libs/SessionHelper.php";
 require_once "admin783/libs/model.php";
+require_once "admin783/libs/View.php";
 $url =  $_GET['url'];
 $urla = explode('/', $url);
 //print_r($urla);

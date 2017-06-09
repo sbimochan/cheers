@@ -1,83 +1,102 @@
 <?php
+class CategoryModel extends Model{
 
-class CategoryModel extends Model
-{
-    public $id,$name,$role,$parent_id,$status,$image,$description,$created_date,$modified_date,$created_by,$modified_by;
-    public function saveCategory()
-    {
-        if ($this->parent_id != '') {
-             $sql = "insert into tbl_category(name,rank,role,status,slug,description,image,parent_id,created_date,created_by)
-		values('$this->name','$this->rank','$this->role','$this->status','$this->slug','$this->description','$this->image','$this->parent_id','$this->created_date','$this->created_by')";
-        } else {
-             $sql = "insert into tbl_category(name,rank,role,status,slug,description,image,created_date,created_by)
-		values('$this->name','$this->rank','$this->role','$this->status','$this->slug','$this->description','$this->image','$this->created_date','$this->created_by')";
+    public $id,$parent_id,$name,$slug,$status,$rank,$role,$created_by,$modified_by,$created_date,$modified_date;
+
+    function saveCategory(){
+        //print_r($this);
+        if (!empty($this->parent_id)){
+            $sql = "insert into tbl_category (role,parent_id,name,slug,rank,status,created_by,created_date) values ('$this->role','$this->parent_id','$this->name','$this->slug','$this->rank','$this->status','$this->created_by','$this->created_date')";
+        }else{
+            $sql = "insert into tbl_category (role,name,slug,rank,status,created_by,created_date) values ('$this->role','$this->name','$this->slug','$this->rank','$this->status','$this->created_by','$this->created_date')";
         }
-
-    return $this->insert($sql);
+        //echo $sql;
+        return $this->insert($sql);
     }
-    public function SelectAllCategory()
-    {
-        $sql = 'select * from tbl_category order by created_date desc';
-
+    function selectAllCategory(){
+        $sql ="select * from tbl_category";
         return $this->select($sql);
     }
-    public function SelectAllCategoryByID($id)  //new function created
-    {
-        $sql = "select * from tbl_category order by created_date desc where id='$this->id' ";
-
-        return $this->select($sql);
-    }
-    public function deleteCategory()
-    {
-        $sql = "delete from tbl_category where id= '$this->id'";
-
+    function deleteCategory(){
+        $sql = "delete from tbl_category where id='$this->id'";
         return $this->delete($sql);
     }
-    public function selectCategoryById()
-    {
-        $sql = "select * from tbl_category where id='$this->id'";
-
+    function selectCategoryById(){
+        $sql ="select * from tbl_category where id='$this->id'";
         return $this->select($sql);
     }
-    public function updateCategory()
-    {
-        $sql = "update tbl_category set name='$this->name',rank='$this->rank',role='$this->role',status='$this->status',slug='$this->slug',description='$this->description',image='$this->image',parent_id='$this->parent_id',modified_date='$this->modified_date',modified_by='$this->modified_by' where id='$this->id'";
-
+    function updateCategory(){
+        //print_r($this);
+        if (!empty($this->parent_id)){
+            $sql = "update tbl_category set role='$this->role',parent_id='$this->parent_id',name='$this->name',slug='$this->slug',rank='$this->rank',status='$this->status',modified_by='$this->modified_by',modified_date='$this->modified_date' where id='$this->id'";
+        }else{
+            $sql = "update tbl_category set role='$this->role',name='$this->name',slug='$this->slug',rank='$this->rank',status='$this->status',modified_by='$this->modified_by',modified_date='$this->modified_date' where id='$this->id'";
+        }
+        // echo $sql;
         return $this->update($sql);
     }
-    public function selectMainCategory()
+    public function selectAllMainCategory()
     {
-        $sql = "select * from tbl_category where role='category'";
+        $sql ="select * from tbl_category where role='category'";
+        return $this->select($sql);
 
+    }
+    function selectSubcategory()
+    {
+        $sql ="select * from tbl_category where role='subcategory'
+ and parent_id='$this->parent_id'";
+        return $this->select($sql);
+
+    }
+    public function selectAllActiveMainCategory()
+    {
+        $sql ="select * from tbl_category where role='category' and status=1";
+        return $this->select($sql);
+
+    }
+    function selectAllActiveSubcategory()
+    {
+        $sql ="select * from tbl_category where role='subcategory' and status=1";
+        return $this->select($sql);
+
+    }
+    public function getCategoryNameBySlug(){
+        $sql ="select name from tbl_category where role='category' and slug='$this->slug'";
         return $this->select($sql);
     }
-    public function selectMainMenu()
-    {
-        $sql = "select * from tbl_category where role='category' and status=1";
 
+    public function getSubCategoryNameBySlug(){
+        $sql ="select name from tbl_category where role='subcategory' and slug='$this->slug'";
         return $this->select($sql);
     }
-    public function selectSubCategoryMenu()
-    {
-        $sql = "select * from tbl_category where role='subcategory' and status=1";
-
+    public function selectMainMenu(){
+      $sql="select * from tbl_category where role='category'";
+      return $this->select($sql);
+    }
+    public function selectSubCategoryMenu(){
+        $sql="select * from tbl_category where role='subcategory'";
+        return $this->select($sql);
+    }
+    public function nameOfCategory(){
+        $sql="select * from tbl_category where slug='$this->slug' AND
+        role='category'";
+        return $this->select($sql);
+    }
+    public function nameOfSubCategory(){
+        $sql="select * from tbl_category where slug='$this->slug' and
+        role='subcategory'";
         return $this->select($sql);
     }
     public function selectSelectedsubmenu(){
-        $sql="select * from tbl_category where role='subcategory' and parent_id='$this->parent_id'";
+        $sql="select * from tbl_category where slug='$this->slug' and
+        role='subcategory'";
         return $this->select($sql);
     }
-    public function categoryname($category_id){
-        $sql="select * from tbl_category where id='$category_id'";
+    public function categoryName(){
+        $sql="select * from tbl_category where id='$this->id' and
+        role='category'";
         return $this->select($sql);
     }
-   public function nameOfCategory($slug){
-        $sql="SELECT tbl_category.*, tbl_product.category_id AS cid, tbl_product.name AS cname FROM tbl_product JOIN tbl_category ON tbl_product.category_id = tbl_category.id WHERE tbl_product.slug = '$slug'";
-        return $this->select($sql);
-    }
-    public function nameOfsubCategory($slug){
-        $sql="SELECT tbl_category.*, tbl_product.subcategory_id AS cid, tbl_product.name AS cname FROM tbl_product JOIN tbl_category ON tbl_product.subcategory_id = tbl_category.id WHERE tbl_product.slug = '$slug'";
-        return $this->select($sql);
-    }
-   
 }
+
+

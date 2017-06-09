@@ -1,13 +1,348 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AnalysisUIOptions">
-    <option name="SCOPE_TYPE" value="3" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="a66863cf-6072-47a9-82d0-c25a638442d3" name="Default" comment="" />
-    <ignored path="mvc.iws" />
-    <ignored path=".idea/workspace.xml" />
-    <ignored path=".idea/dataSources.local.xml" />
+    <list default="true" id="ed0b50f8-f94f-4c96-b222-24b06f7b8d15" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/mvc.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/controller/backup/DashboardController.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/nbproject/private/private.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/nbproject/private/private.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/nbproject/project.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/nbproject/project.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/old frontend/public/css/animate.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/old frontend/public/css/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/old frontend/public/css/bootstrap.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/old frontend/public/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/old frontend/public/css/custom.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/old frontend/public/css/font-awesome.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/old frontend/public/css/fonts/FontAwesome.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/old frontend/public/css/fonts/flexslider-icon.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/old frontend/public/css/fonts/flexslider-icon.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/old frontend/public/css/fonts/flexslider-icon.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/old frontend/public/css/fonts/flexslider-icon.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/old frontend/public/css/fonts/fontawesome-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/old frontend/public/css/fonts/fontawesome-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/old frontend/public/css/fonts/fontawesome-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/old frontend/public/css/fonts/fontawesome-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/old frontend/public/css/owl.carousel.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/old frontend/public/css/owl.theme.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/old frontend/public/css/owl.transitions.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/old frontend/public/css/style.blue.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/old frontend/public/css/style.default.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/old frontend/public/css/style.green.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/old frontend/public/css/style.mono.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/old frontend/public/css/style.pink.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/old frontend/public/css/style.violet.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/old frontend/public/img/AjaxLoader.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/old frontend/public/img/banner.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/old frontend/public/img/banner2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/old frontend/public/img/basketsquare.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/old frontend/public/img/blog-avatar.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/old frontend/public/img/blog-avatar2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/old frontend/public/img/blog.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/old frontend/public/img/blog2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/old frontend/public/img/detailbig1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/old frontend/public/img/detailbig2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/old frontend/public/img/detailbig3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/old frontend/public/img/detailsquare.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/old frontend/public/img/detailsquare2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/old frontend/public/img/detailsquare3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/old frontend/public/img/getinspired1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/old frontend/public/img/getinspired2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/old frontend/public/img/getinspired3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/old frontend/public/img/grabbing.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/old frontend/public/img/logo-small.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/old frontend/public/img/logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/old frontend/public/img/main-slider1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/old frontend/public/img/main-slider2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/old frontend/public/img/main-slider3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/old frontend/public/img/main-slider4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/old frontend/public/img/product1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/old frontend/public/img/product1_2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/old frontend/public/img/product1_2_old.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/old frontend/public/img/product2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/old frontend/public/img/product2_2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/old frontend/public/img/product3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/old frontend/public/img/product3_2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/old frontend/public/img/slider1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/old frontend/public/img/slider2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/old frontend/public/img/slider3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/old frontend/public/img/slider4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/old frontend/public/js/bootstrap-hover-dropdown.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/old frontend/public/js/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/old frontend/public/js/front.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/old frontend/public/js/jquery-1.11.0.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/old frontend/public/js/jquery.cookie.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/old frontend/public/js/jquery.flexslider.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/old frontend/public/js/jquery.flexslider.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/old frontend/public/js/main.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/old frontend/public/js/modernizr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/old frontend/public/js/owl.carousel.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/old frontend/public/js/respond.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/old frontend/public/js/waypoints.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/old frontend/view/dashboard/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/old frontend/view/layout/footer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/old frontend/view/layout/header.php" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/.idea/copyright/profiles_settings.xml" afterPath="$PROJECT_DIR$/admin783/.idea/copyright/profiles_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/controller/ProductController.php" afterPath="$PROJECT_DIR$/admin783/controller/ProductController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/libs/SessionHelper.php" afterPath="$PROJECT_DIR$/admin783/libs/SessionHelper.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/libs/View.php" afterPath="$PROJECT_DIR$/admin783/libs/View.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/libs/controller.php" afterPath="$PROJECT_DIR$/admin783/libs/controller.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/libs/model.php" afterPath="$PROJECT_DIR$/admin783/libs/model.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/libs/sdfa.php" afterPath="$PROJECT_DIR$/admin783/libs/sdfa.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/model/AdminModel.php" afterPath="$PROJECT_DIR$/admin783/model/AdminModel.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/model/CategoryModel.php" afterPath="$PROJECT_DIR$/admin783/model/CategoryModel.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/model/ProductModel.php" afterPath="$PROJECT_DIR$/admin783/model/ProductModel.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/dist/css/font-awesome.min.css" afterPath="$PROJECT_DIR$/admin783/public/dist/css/font-awesome.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/dist/css/ionicons.min.css" afterPath="$PROJECT_DIR$/admin783/public/dist/css/ionicons.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/dist/js/html5shiv.min.js" afterPath="$PROJECT_DIR$/admin783/public/dist/js/html5shiv.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/dist/js/respond.min.js" afterPath="$PROJECT_DIR$/admin783/public/dist/js/respond.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/ckeditor/CHANGES.md" afterPath="$PROJECT_DIR$/admin783/public/plugins/ckeditor/CHANGES.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/ckeditor/LICENSE.md" afterPath="$PROJECT_DIR$/admin783/public/plugins/ckeditor/LICENSE.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/ckeditor/plugins/scayt/LICENSE.md" afterPath="$PROJECT_DIR$/admin783/public/plugins/ckeditor/plugins/scayt/LICENSE.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/ckeditor/plugins/scayt/README.md" afterPath="$PROJECT_DIR$/admin783/public/plugins/ckeditor/plugins/scayt/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/ckeditor/plugins/wsc/LICENSE.md" afterPath="$PROJECT_DIR$/admin783/public/plugins/ckeditor/plugins/wsc/LICENSE.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/ckeditor/plugins/wsc/README.md" afterPath="$PROJECT_DIR$/admin783/public/plugins/ckeditor/plugins/wsc/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/ckeditor/skins/moono/readme.md" afterPath="$PROJECT_DIR$/admin783/public/plugins/ckeditor/skins/moono/readme.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/CHANGES.md" afterPath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/CHANGES.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/LICENSE.md" afterPath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/LICENSE.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/build-config.js" afterPath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/build-config.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/contents.css" afterPath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/contents.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/lang/en.js" afterPath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/lang/en.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/plugins/codesnippet/lib/highlight/CHANGES.md" afterPath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/plugins/codesnippet/lib/highlight/CHANGES.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/plugins/codesnippet/lib/highlight/README.md" afterPath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/plugins/codesnippet/lib/highlight/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/plugins/codesnippet/lib/highlight/README.ru.md" afterPath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/plugins/codesnippet/lib/highlight/README.ru.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/plugins/codesnippet/lib/highlight/highlight.pack.js" afterPath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/plugins/codesnippet/lib/highlight/highlight.pack.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/plugins/codesnippet/lib/highlight/styles/arta.css" afterPath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/plugins/codesnippet/lib/highlight/styles/arta.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/plugins/codesnippet/lib/highlight/styles/ascetic.css" afterPath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/plugins/codesnippet/lib/highlight/styles/ascetic.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/plugins/codesnippet/lib/highlight/styles/atelier-dune.dark.css" afterPath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/plugins/codesnippet/lib/highlight/styles/atelier-dune.dark.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/plugins/codesnippet/lib/highlight/styles/atelier-dune.light.css" afterPath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/plugins/codesnippet/lib/highlight/styles/atelier-dune.light.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/plugins/codesnippet/lib/highlight/styles/atelier-forest.dark.css" afterPath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/plugins/codesnippet/lib/highlight/styles/atelier-forest.dark.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/plugins/codesnippet/lib/highlight/styles/atelier-forest.light.css" afterPath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/plugins/codesnippet/lib/highlight/styles/atelier-forest.light.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/plugins/codesnippet/lib/highlight/styles/atelier-heath.dark.css" afterPath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/plugins/codesnippet/lib/highlight/styles/atelier-heath.dark.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/plugins/codesnippet/lib/highlight/styles/atelier-heath.light.css" afterPath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/plugins/codesnippet/lib/highlight/styles/atelier-heath.light.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/plugins/codesnippet/lib/highlight/styles/atelier-lakeside.dark.css" afterPath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/plugins/codesnippet/lib/highlight/styles/atelier-lakeside.dark.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/plugins/codesnippet/lib/highlight/styles/atelier-lakeside.light.css" afterPath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/plugins/codesnippet/lib/highlight/styles/atelier-lakeside.light.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/plugins/codesnippet/lib/highlight/styles/atelier-seaside.dark.css" afterPath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/plugins/codesnippet/lib/highlight/styles/atelier-seaside.dark.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/plugins/codesnippet/lib/highlight/styles/atelier-seaside.light.css" afterPath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/plugins/codesnippet/lib/highlight/styles/atelier-seaside.light.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/plugins/codesnippet/lib/highlight/styles/brown_paper.css" afterPath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/plugins/codesnippet/lib/highlight/styles/brown_paper.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/plugins/codesnippet/lib/highlight/styles/dark.css" afterPath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/plugins/codesnippet/lib/highlight/styles/dark.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/plugins/codesnippet/lib/highlight/styles/default.css" afterPath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/plugins/codesnippet/lib/highlight/styles/default.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/plugins/codesnippet/lib/highlight/styles/docco.css" afterPath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/plugins/codesnippet/lib/highlight/styles/docco.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/plugins/codesnippet/lib/highlight/styles/far.css" afterPath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/plugins/codesnippet/lib/highlight/styles/far.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/plugins/codesnippet/lib/highlight/styles/foundation.css" afterPath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/plugins/codesnippet/lib/highlight/styles/foundation.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/plugins/codesnippet/lib/highlight/styles/github.css" afterPath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/plugins/codesnippet/lib/highlight/styles/github.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/plugins/codesnippet/lib/highlight/styles/googlecode.css" afterPath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/plugins/codesnippet/lib/highlight/styles/googlecode.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/plugins/codesnippet/lib/highlight/styles/idea.css" afterPath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/plugins/codesnippet/lib/highlight/styles/idea.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/plugins/codesnippet/lib/highlight/styles/ir_black.css" afterPath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/plugins/codesnippet/lib/highlight/styles/ir_black.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/plugins/codesnippet/lib/highlight/styles/magula.css" afterPath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/plugins/codesnippet/lib/highlight/styles/magula.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/plugins/codesnippet/lib/highlight/styles/mono-blue.css" afterPath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/plugins/codesnippet/lib/highlight/styles/mono-blue.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/plugins/codesnippet/lib/highlight/styles/monokai.css" afterPath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/plugins/codesnippet/lib/highlight/styles/monokai.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/plugins/codesnippet/lib/highlight/styles/monokai_sublime.css" afterPath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/plugins/codesnippet/lib/highlight/styles/monokai_sublime.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/plugins/codesnippet/lib/highlight/styles/obsidian.css" afterPath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/plugins/codesnippet/lib/highlight/styles/obsidian.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/plugins/codesnippet/lib/highlight/styles/paraiso.dark.css" afterPath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/plugins/codesnippet/lib/highlight/styles/paraiso.dark.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/plugins/codesnippet/lib/highlight/styles/paraiso.light.css" afterPath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/plugins/codesnippet/lib/highlight/styles/paraiso.light.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/plugins/codesnippet/lib/highlight/styles/pojoaque.css" afterPath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/plugins/codesnippet/lib/highlight/styles/pojoaque.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/plugins/codesnippet/lib/highlight/styles/railscasts.css" afterPath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/plugins/codesnippet/lib/highlight/styles/railscasts.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/plugins/codesnippet/lib/highlight/styles/rainbow.css" afterPath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/plugins/codesnippet/lib/highlight/styles/rainbow.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/plugins/codesnippet/lib/highlight/styles/school_book.css" afterPath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/plugins/codesnippet/lib/highlight/styles/school_book.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/plugins/codesnippet/lib/highlight/styles/solarized_dark.css" afterPath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/plugins/codesnippet/lib/highlight/styles/solarized_dark.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/plugins/codesnippet/lib/highlight/styles/solarized_light.css" afterPath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/plugins/codesnippet/lib/highlight/styles/solarized_light.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/plugins/codesnippet/lib/highlight/styles/sunburst.css" afterPath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/plugins/codesnippet/lib/highlight/styles/sunburst.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/plugins/codesnippet/lib/highlight/styles/tomorrow-night-blue.css" afterPath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/plugins/codesnippet/lib/highlight/styles/tomorrow-night-blue.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/plugins/codesnippet/lib/highlight/styles/tomorrow-night-bright.css" afterPath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/plugins/codesnippet/lib/highlight/styles/tomorrow-night-bright.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/plugins/codesnippet/lib/highlight/styles/tomorrow-night-eighties.css" afterPath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/plugins/codesnippet/lib/highlight/styles/tomorrow-night-eighties.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/plugins/codesnippet/lib/highlight/styles/tomorrow-night.css" afterPath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/plugins/codesnippet/lib/highlight/styles/tomorrow-night.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/plugins/codesnippet/lib/highlight/styles/tomorrow.css" afterPath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/plugins/codesnippet/lib/highlight/styles/tomorrow.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/plugins/codesnippet/lib/highlight/styles/vs.css" afterPath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/plugins/codesnippet/lib/highlight/styles/vs.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/plugins/codesnippet/lib/highlight/styles/xcode.css" afterPath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/plugins/codesnippet/lib/highlight/styles/xcode.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/plugins/codesnippet/lib/highlight/styles/zenburn.css" afterPath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/plugins/codesnippet/lib/highlight/styles/zenburn.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/plugins/pastefromexcel/.editorconfig" afterPath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/plugins/pastefromexcel/.editorconfig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/plugins/pastefromexcel/.jscsrc" afterPath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/plugins/pastefromexcel/.jscsrc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/plugins/pastefromexcel/.jshintrc" afterPath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/plugins/pastefromexcel/.jshintrc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/plugins/pastefromexcel/LICENSE.md" afterPath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/plugins/pastefromexcel/LICENSE.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/plugins/pastefromexcel/README.md" afterPath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/plugins/pastefromexcel/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/samples/css/samples.css" afterPath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/samples/css/samples.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/samples/index.html" afterPath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/samples/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/samples/js/sample.js" afterPath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/samples/js/sample.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/samples/old/ajax.html" afterPath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/samples/old/ajax.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/samples/old/api.html" afterPath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/samples/old/api.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/samples/old/appendto.html" afterPath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/samples/old/appendto.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/samples/old/assets/outputxhtml/outputxhtml.css" afterPath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/samples/old/assets/outputxhtml/outputxhtml.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/samples/old/assets/posteddata.php" afterPath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/samples/old/assets/posteddata.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/samples/old/codesnippet/codesnippet.html" afterPath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/samples/old/codesnippet/codesnippet.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/samples/old/datafiltering.html" afterPath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/samples/old/datafiltering.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/samples/old/dialog/assets/my_dialog.js" afterPath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/samples/old/dialog/assets/my_dialog.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/samples/old/dialog/dialog.html" afterPath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/samples/old/dialog/dialog.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/samples/old/divreplace.html" afterPath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/samples/old/divreplace.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/samples/old/enterkey/enterkey.html" afterPath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/samples/old/enterkey/enterkey.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/samples/old/index.html" afterPath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/samples/old/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/samples/old/inlineall.html" afterPath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/samples/old/inlineall.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/samples/old/inlinebycode.html" afterPath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/samples/old/inlinebycode.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/samples/old/inlinetextarea.html" afterPath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/samples/old/inlinetextarea.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/samples/old/jquery.html" afterPath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/samples/old/jquery.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/samples/old/readonly.html" afterPath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/samples/old/readonly.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/samples/old/replacebyclass.html" afterPath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/samples/old/replacebyclass.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/samples/old/replacebycode.html" afterPath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/samples/old/replacebycode.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/samples/old/sample.css" afterPath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/samples/old/sample.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/samples/old/sample.js" afterPath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/samples/old/sample.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/samples/old/sample_posteddata.php" afterPath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/samples/old/sample_posteddata.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/samples/old/tabindex.html" afterPath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/samples/old/tabindex.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/samples/old/tableresize/tableresize.html" afterPath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/samples/old/tableresize/tableresize.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/samples/old/toolbar/toolbar.html" afterPath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/samples/old/toolbar/toolbar.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/samples/old/uicolor.html" afterPath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/samples/old/uicolor.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/samples/old/uilanguages.html" afterPath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/samples/old/uilanguages.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/samples/old/wysiwygarea/fullpage.html" afterPath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/samples/old/wysiwygarea/fullpage.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/samples/old/xhtmlstyle.html" afterPath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/samples/old/xhtmlstyle.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/samples/toolbarconfigurator/css/fontello.css" afterPath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/samples/toolbarconfigurator/css/fontello.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/samples/toolbarconfigurator/font/LICENSE.txt" afterPath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/samples/toolbarconfigurator/font/LICENSE.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/samples/toolbarconfigurator/index.html" afterPath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/samples/toolbarconfigurator/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/samples/toolbarconfigurator/lib/codemirror/codemirror.css" afterPath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/samples/toolbarconfigurator/lib/codemirror/codemirror.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/samples/toolbarconfigurator/lib/codemirror/neo.css" afterPath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/samples/toolbarconfigurator/lib/codemirror/neo.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/samples/toolbarconfigurator/lib/codemirror/show-hint.css" afterPath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/samples/toolbarconfigurator/lib/codemirror/show-hint.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/skins/office2013/dialog.css" afterPath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/skins/office2013/dialog.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/skins/office2013/editor.css" afterPath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/skins/office2013/editor.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/styles.js" afterPath="$PROJECT_DIR$/admin783/public/plugins/ckeditor_modified/styles.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/validatation/README.md" afterPath="$PROJECT_DIR$/admin783/public/plugins/validatation/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/validatation/demo/ajaxSubmit-integration-demo.html" afterPath="$PROJECT_DIR$/admin783/public/plugins/validatation/demo/ajaxSubmit-integration-demo.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/validatation/demo/bootstrap/index.html" afterPath="$PROJECT_DIR$/admin783/public/plugins/validatation/demo/bootstrap/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/validatation/demo/captcha/image_req.php" afterPath="$PROJECT_DIR$/admin783/public/plugins/validatation/demo/captcha/image_req.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/validatation/demo/captcha/images/image.php" afterPath="$PROJECT_DIR$/admin783/public/plugins/validatation/demo/captcha/images/image.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/validatation/demo/captcha/index.php" afterPath="$PROJECT_DIR$/admin783/public/plugins/validatation/demo/captcha/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/validatation/demo/captcha/newsession.php" afterPath="$PROJECT_DIR$/admin783/public/plugins/validatation/demo/captcha/newsession.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/validatation/demo/captcha/process.php" afterPath="$PROJECT_DIR$/admin783/public/plugins/validatation/demo/captcha/process.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/validatation/demo/captcha/rand.php" afterPath="$PROJECT_DIR$/admin783/public/plugins/validatation/demo/captcha/rand.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/validatation/demo/captcha/style.css" afterPath="$PROJECT_DIR$/admin783/public/plugins/validatation/demo/captcha/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/validatation/demo/cinema/index.html" afterPath="$PROJECT_DIR$/admin783/public/plugins/validatation/demo/cinema/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/validatation/demo/css/cmxform.css" afterPath="$PROJECT_DIR$/admin783/public/plugins/validatation/demo/css/cmxform.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/validatation/demo/css/cmxformTemplate.css" afterPath="$PROJECT_DIR$/admin783/public/plugins/validatation/demo/css/cmxformTemplate.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/validatation/demo/css/core.css" afterPath="$PROJECT_DIR$/admin783/public/plugins/validatation/demo/css/core.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/validatation/demo/css/reset.css" afterPath="$PROJECT_DIR$/admin783/public/plugins/validatation/demo/css/reset.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/validatation/demo/css/screen.css" afterPath="$PROJECT_DIR$/admin783/public/plugins/validatation/demo/css/screen.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/validatation/demo/custom-messages-data-demo.html" afterPath="$PROJECT_DIR$/admin783/public/plugins/validatation/demo/custom-messages-data-demo.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/validatation/demo/custom-methods-demo.html" afterPath="$PROJECT_DIR$/admin783/public/plugins/validatation/demo/custom-methods-demo.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/validatation/demo/dynamic-totals.html" afterPath="$PROJECT_DIR$/admin783/public/plugins/validatation/demo/dynamic-totals.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/validatation/demo/errorcontainer-demo.html" afterPath="$PROJECT_DIR$/admin783/public/plugins/validatation/demo/errorcontainer-demo.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/validatation/demo/errors-within-labels.html" afterPath="$PROJECT_DIR$/admin783/public/plugins/validatation/demo/errors-within-labels.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/validatation/demo/file_input.html" afterPath="$PROJECT_DIR$/admin783/public/plugins/validatation/demo/file_input.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/validatation/demo/index.html" afterPath="$PROJECT_DIR$/admin783/public/plugins/validatation/demo/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/validatation/demo/jquerymobile.html" afterPath="$PROJECT_DIR$/admin783/public/plugins/validatation/demo/jquerymobile.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/validatation/demo/login/index.html" afterPath="$PROJECT_DIR$/admin783/public/plugins/validatation/demo/login/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/validatation/demo/login/screen.css" afterPath="$PROJECT_DIR$/admin783/public/plugins/validatation/demo/login/screen.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/validatation/demo/marketo/index.html" afterPath="$PROJECT_DIR$/admin783/public/plugins/validatation/demo/marketo/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/validatation/demo/marketo/step2.htm" afterPath="$PROJECT_DIR$/admin783/public/plugins/validatation/demo/marketo/step2.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/validatation/demo/marketo/stylesheet.css" afterPath="$PROJECT_DIR$/admin783/public/plugins/validatation/demo/marketo/stylesheet.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/validatation/demo/milk/index.html" afterPath="$PROJECT_DIR$/admin783/public/plugins/validatation/demo/milk/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/validatation/demo/milk/milk.css" afterPath="$PROJECT_DIR$/admin783/public/plugins/validatation/demo/milk/milk.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/validatation/demo/multipart/index.html" afterPath="$PROJECT_DIR$/admin783/public/plugins/validatation/demo/multipart/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/validatation/demo/multipart/style.css" afterPath="$PROJECT_DIR$/admin783/public/plugins/validatation/demo/multipart/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/validatation/demo/radio-checkbox-select-demo.html" afterPath="$PROJECT_DIR$/admin783/public/plugins/validatation/demo/radio-checkbox-select-demo.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/validatation/demo/requirejs/index.html" afterPath="$PROJECT_DIR$/admin783/public/plugins/validatation/demo/requirejs/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/validatation/demo/semantic-ui/index.html" afterPath="$PROJECT_DIR$/admin783/public/plugins/validatation/demo/semantic-ui/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/validatation/demo/site-demos.css" afterPath="$PROJECT_DIR$/admin783/public/plugins/validatation/demo/site-demos.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/validatation/demo/themerollered.html" afterPath="$PROJECT_DIR$/admin783/public/plugins/validatation/demo/themerollered.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/validatation/demo/tinymce/index.html" afterPath="$PROJECT_DIR$/admin783/public/plugins/validatation/demo/tinymce/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/validatation/demo/tinymce/themes/simple/skins/default/ui.css" afterPath="$PROJECT_DIR$/admin783/public/plugins/validatation/demo/tinymce/themes/simple/skins/default/ui.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/validatation/demo/tinymce4/index.html" afterPath="$PROJECT_DIR$/admin783/public/plugins/validatation/demo/tinymce4/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/validatation/dist/additional-methods.js" afterPath="$PROJECT_DIR$/admin783/public/plugins/validatation/dist/additional-methods.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/validatation/dist/additional-methods.min.js" afterPath="$PROJECT_DIR$/admin783/public/plugins/validatation/dist/additional-methods.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/validatation/dist/jquery.validate.js" afterPath="$PROJECT_DIR$/admin783/public/plugins/validatation/dist/jquery.validate.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/validatation/dist/jquery.validate.min.js" afterPath="$PROJECT_DIR$/admin783/public/plugins/validatation/dist/jquery.validate.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/validatation/dist/localization/messages_ar.min.js" afterPath="$PROJECT_DIR$/admin783/public/plugins/validatation/dist/localization/messages_ar.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/validatation/dist/localization/messages_bg.min.js" afterPath="$PROJECT_DIR$/admin783/public/plugins/validatation/dist/localization/messages_bg.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/validatation/dist/localization/messages_bn_BD.min.js" afterPath="$PROJECT_DIR$/admin783/public/plugins/validatation/dist/localization/messages_bn_BD.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/validatation/dist/localization/messages_ca.min.js" afterPath="$PROJECT_DIR$/admin783/public/plugins/validatation/dist/localization/messages_ca.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/validatation/dist/localization/messages_cs.min.js" afterPath="$PROJECT_DIR$/admin783/public/plugins/validatation/dist/localization/messages_cs.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/validatation/dist/localization/messages_da.min.js" afterPath="$PROJECT_DIR$/admin783/public/plugins/validatation/dist/localization/messages_da.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/validatation/dist/localization/messages_de.min.js" afterPath="$PROJECT_DIR$/admin783/public/plugins/validatation/dist/localization/messages_de.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/validatation/dist/localization/messages_el.min.js" afterPath="$PROJECT_DIR$/admin783/public/plugins/validatation/dist/localization/messages_el.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/validatation/dist/localization/messages_es.min.js" afterPath="$PROJECT_DIR$/admin783/public/plugins/validatation/dist/localization/messages_es.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/validatation/dist/localization/messages_es_AR.min.js" afterPath="$PROJECT_DIR$/admin783/public/plugins/validatation/dist/localization/messages_es_AR.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/validatation/dist/localization/messages_es_PE.min.js" afterPath="$PROJECT_DIR$/admin783/public/plugins/validatation/dist/localization/messages_es_PE.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/validatation/dist/localization/messages_et.min.js" afterPath="$PROJECT_DIR$/admin783/public/plugins/validatation/dist/localization/messages_et.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/validatation/dist/localization/messages_eu.min.js" afterPath="$PROJECT_DIR$/admin783/public/plugins/validatation/dist/localization/messages_eu.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/validatation/dist/localization/messages_fa.min.js" afterPath="$PROJECT_DIR$/admin783/public/plugins/validatation/dist/localization/messages_fa.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/validatation/dist/localization/messages_fi.min.js" afterPath="$PROJECT_DIR$/admin783/public/plugins/validatation/dist/localization/messages_fi.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/validatation/dist/localization/messages_fr.min.js" afterPath="$PROJECT_DIR$/admin783/public/plugins/validatation/dist/localization/messages_fr.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/validatation/dist/localization/messages_ge.min.js" afterPath="$PROJECT_DIR$/admin783/public/plugins/validatation/dist/localization/messages_ge.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/validatation/dist/localization/messages_gl.min.js" afterPath="$PROJECT_DIR$/admin783/public/plugins/validatation/dist/localization/messages_gl.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/validatation/dist/localization/messages_he.min.js" afterPath="$PROJECT_DIR$/admin783/public/plugins/validatation/dist/localization/messages_he.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/validatation/dist/localization/messages_hr.min.js" afterPath="$PROJECT_DIR$/admin783/public/plugins/validatation/dist/localization/messages_hr.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/validatation/dist/localization/messages_hu.min.js" afterPath="$PROJECT_DIR$/admin783/public/plugins/validatation/dist/localization/messages_hu.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/validatation/dist/localization/messages_hy_AM.min.js" afterPath="$PROJECT_DIR$/admin783/public/plugins/validatation/dist/localization/messages_hy_AM.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/validatation/dist/localization/messages_id.min.js" afterPath="$PROJECT_DIR$/admin783/public/plugins/validatation/dist/localization/messages_id.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/validatation/dist/localization/messages_is.min.js" afterPath="$PROJECT_DIR$/admin783/public/plugins/validatation/dist/localization/messages_is.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/validatation/dist/localization/messages_it.min.js" afterPath="$PROJECT_DIR$/admin783/public/plugins/validatation/dist/localization/messages_it.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/validatation/dist/localization/messages_ja.min.js" afterPath="$PROJECT_DIR$/admin783/public/plugins/validatation/dist/localization/messages_ja.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/validatation/dist/localization/messages_ka.min.js" afterPath="$PROJECT_DIR$/admin783/public/plugins/validatation/dist/localization/messages_ka.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/validatation/dist/localization/messages_kk.min.js" afterPath="$PROJECT_DIR$/admin783/public/plugins/validatation/dist/localization/messages_kk.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/validatation/dist/localization/messages_ko.min.js" afterPath="$PROJECT_DIR$/admin783/public/plugins/validatation/dist/localization/messages_ko.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/validatation/dist/localization/messages_lt.min.js" afterPath="$PROJECT_DIR$/admin783/public/plugins/validatation/dist/localization/messages_lt.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/validatation/dist/localization/messages_lv.min.js" afterPath="$PROJECT_DIR$/admin783/public/plugins/validatation/dist/localization/messages_lv.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/validatation/dist/localization/messages_mk.min.js" afterPath="$PROJECT_DIR$/admin783/public/plugins/validatation/dist/localization/messages_mk.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/validatation/dist/localization/messages_my.min.js" afterPath="$PROJECT_DIR$/admin783/public/plugins/validatation/dist/localization/messages_my.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/validatation/dist/localization/messages_nl.min.js" afterPath="$PROJECT_DIR$/admin783/public/plugins/validatation/dist/localization/messages_nl.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/validatation/dist/localization/messages_no.min.js" afterPath="$PROJECT_DIR$/admin783/public/plugins/validatation/dist/localization/messages_no.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/validatation/dist/localization/messages_pl.min.js" afterPath="$PROJECT_DIR$/admin783/public/plugins/validatation/dist/localization/messages_pl.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/validatation/dist/localization/messages_pt_BR.min.js" afterPath="$PROJECT_DIR$/admin783/public/plugins/validatation/dist/localization/messages_pt_BR.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/validatation/dist/localization/messages_pt_PT.min.js" afterPath="$PROJECT_DIR$/admin783/public/plugins/validatation/dist/localization/messages_pt_PT.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/validatation/dist/localization/messages_ro.min.js" afterPath="$PROJECT_DIR$/admin783/public/plugins/validatation/dist/localization/messages_ro.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/validatation/dist/localization/messages_ru.min.js" afterPath="$PROJECT_DIR$/admin783/public/plugins/validatation/dist/localization/messages_ru.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/validatation/dist/localization/messages_si.min.js" afterPath="$PROJECT_DIR$/admin783/public/plugins/validatation/dist/localization/messages_si.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/validatation/dist/localization/messages_sk.min.js" afterPath="$PROJECT_DIR$/admin783/public/plugins/validatation/dist/localization/messages_sk.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/validatation/dist/localization/messages_sl.min.js" afterPath="$PROJECT_DIR$/admin783/public/plugins/validatation/dist/localization/messages_sl.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/validatation/dist/localization/messages_sr.min.js" afterPath="$PROJECT_DIR$/admin783/public/plugins/validatation/dist/localization/messages_sr.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/validatation/dist/localization/messages_sr_lat.min.js" afterPath="$PROJECT_DIR$/admin783/public/plugins/validatation/dist/localization/messages_sr_lat.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/validatation/dist/localization/messages_sv.min.js" afterPath="$PROJECT_DIR$/admin783/public/plugins/validatation/dist/localization/messages_sv.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/validatation/dist/localization/messages_th.min.js" afterPath="$PROJECT_DIR$/admin783/public/plugins/validatation/dist/localization/messages_th.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/validatation/dist/localization/messages_tj.min.js" afterPath="$PROJECT_DIR$/admin783/public/plugins/validatation/dist/localization/messages_tj.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/validatation/dist/localization/messages_tr.min.js" afterPath="$PROJECT_DIR$/admin783/public/plugins/validatation/dist/localization/messages_tr.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/validatation/dist/localization/messages_uk.min.js" afterPath="$PROJECT_DIR$/admin783/public/plugins/validatation/dist/localization/messages_uk.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/validatation/dist/localization/messages_vi.min.js" afterPath="$PROJECT_DIR$/admin783/public/plugins/validatation/dist/localization/messages_vi.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/validatation/dist/localization/messages_zh.min.js" afterPath="$PROJECT_DIR$/admin783/public/plugins/validatation/dist/localization/messages_zh.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/validatation/dist/localization/messages_zh_TW.min.js" afterPath="$PROJECT_DIR$/admin783/public/plugins/validatation/dist/localization/messages_zh_TW.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/validatation/dist/localization/methods_de.min.js" afterPath="$PROJECT_DIR$/admin783/public/plugins/validatation/dist/localization/methods_de.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/validatation/dist/localization/methods_es_CL.min.js" afterPath="$PROJECT_DIR$/admin783/public/plugins/validatation/dist/localization/methods_es_CL.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/validatation/dist/localization/methods_fi.min.js" afterPath="$PROJECT_DIR$/admin783/public/plugins/validatation/dist/localization/methods_fi.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/validatation/dist/localization/methods_nl.min.js" afterPath="$PROJECT_DIR$/admin783/public/plugins/validatation/dist/localization/methods_nl.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/validatation/dist/localization/methods_pt.min.js" afterPath="$PROJECT_DIR$/admin783/public/plugins/validatation/dist/localization/methods_pt.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/validatation/test/index.html" afterPath="$PROJECT_DIR$/admin783/public/plugins/validatation/test/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/public/plugins/validatation/test/qunit/qunit.css" afterPath="$PROJECT_DIR$/admin783/public/plugins/validatation/test/qunit/qunit.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/view/category/create.php" afterPath="$PROJECT_DIR$/admin783/view/category/create.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/view/category/edit.php" afterPath="$PROJECT_DIR$/admin783/view/category/edit.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/view/category/index.php" afterPath="$PROJECT_DIR$/admin783/view/category/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/view/login.php" afterPath="$PROJECT_DIR$/admin783/view/login.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/view/product/create.php" afterPath="$PROJECT_DIR$/admin783/view/product/create.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/view/product/edit.php" afterPath="$PROJECT_DIR$/admin783/view/product/edit.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/view/product/index.php" afterPath="$PROJECT_DIR$/admin783/view/product/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin783/view/user/fblogin.php" afterPath="$PROJECT_DIR$/admin783/view/user/fblogin.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/CartController.php" afterPath="$PROJECT_DIR$/controller/CartController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/CustomerController.php" afterPath="$PROJECT_DIR$/controller/CustomerController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/DashboardController.php" afterPath="$PROJECT_DIR$/controller/DashboardController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/custom.css" afterPath="$PROJECT_DIR$/public/css/custom.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/front.js" afterPath="$PROJECT_DIR$/public/js/front.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/dashboard/basket.php" afterPath="$PROJECT_DIR$/view/dashboard/basket.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/dashboard/category.php" afterPath="$PROJECT_DIR$/view/dashboard/category.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/dashboard/contact.php" afterPath="$PROJECT_DIR$/view/dashboard/contact.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/dashboard/details.php" afterPath="$PROJECT_DIR$/view/dashboard/details.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/dashboard/details.php.backup" afterPath="$PROJECT_DIR$/view/dashboard/details.php.backup" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/dashboard/index.php" afterPath="$PROJECT_DIR$/view/dashboard/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/dashboard/indexold.php" afterPath="$PROJECT_DIR$/view/dashboard/indexold.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/dashboard/login.php" afterPath="$PROJECT_DIR$/view/dashboard/login.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/dashboard/register.php" afterPath="$PROJECT_DIR$/view/dashboard/register.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/dashboard/sortedcategory.php" afterPath="$PROJECT_DIR$/view/dashboard/sortedcategory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/layout/footer.php" afterPath="$PROJECT_DIR$/view/layout/footer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/layout/footerold.php" afterPath="$PROJECT_DIR$/view/layout/footerold.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/layout/header.php" afterPath="$PROJECT_DIR$/view/layout/header.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/layout/headerold.php" afterPath="$PROJECT_DIR$/view/layout/headerold.php" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,151 +350,112 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
-  <component name="CreatePatchCommitExecutor">
-    <option name="PATCH_PATH" value="" />
-  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
-  <component name="ExportToHTMLSettings">
-    <option name="OUTPUT_DIRECTORY" value="C:\wamp\www\mvc\exportToHTML" />
-  </component>
-  <component name="FavoritesManager">
-    <favorites_list name="mvc" />
-  </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.php">
+    <leaf>
+      <file leaf-file-name="DashboardController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/controller/DashboardController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+            <state relative-caret-position="170">
+              <caret line="114" column="45" lean-forward="false" selection-start-line="114" selection-start-column="45" selection-end-line="114" selection-end-column="45" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="create.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin783/view/product/create.php">
+      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/view/layout/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="49" column="49" selection-start-line="49" selection-start-column="37" selection-end-line="49" selection-end-column="49" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProductModel.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/admin783/model/ProductModel.php">
+      <file leaf-file-name="CategoryModel.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin783/model/CategoryModel.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.29319373">
-              <caret line="18" column="66" selection-start-line="18" selection-start-column="66" selection-end-line="18" selection-end-column="66" />
+            <state relative-caret-position="236">
+              <caret line="95" column="59" lean-forward="false" selection-start-line="95" selection-start-column="59" selection-end-line="95" selection-end-column="59" />
               <folding>
-                <marker date="1473324672247" expanded="true" signature="369:988" placeholder="insert into tbl_product... " />
-                <marker date="1473324672247" expanded="true" signature="1014:1633" placeholder="insert into tbl_product... " />
-                <marker date="1473324672247" expanded="true" signature="1727:1779" placeholder="select * fro... tbl_product" />
-                <marker date="1473324672247" expanded="true" signature="1850:1895" placeholder="delete from " />
-                <marker date="1473324672247" expanded="true" signature="1972:2018" placeholder="select * fro... tbl_product" />
-                <marker date="1473324672247" expanded="true" signature="2091:2386" placeholder="update tbl_p... " />
-                <marker date="1473324672247" expanded="true" signature="2462:2487" placeholder="select * fro... tbl_product" />
-                <marker date="1473324672247" expanded="true" signature="2560:2621" placeholder="select * fro... tbl_category" />
-                <marker date="1473324672247" expanded="true" signature="2700:2764" placeholder="select * fro... tbl_category" />
-                <marker date="1473324672247" expanded="true" signature="2840:2914" placeholder="select * fro... tbl_product" />
-                <marker date="1473324672247" expanded="true" signature="2992:3062" placeholder="select * fro... tbl_product" />
+                <marker date="1497026394086" expanded="true" signature="270:499" ph="insert into tbl_category... " />
+                <marker date="1497026394086" expanded="true" signature="537:737" ph="insert into tbl_category... " />
+                <marker date="1497026394086" expanded="true" signature="862:888" ph="select * fro... tbl_category" />
+                <marker date="1497026394086" expanded="true" signature="980:1025" ph="delete from " />
+                <marker date="1497026394086" expanded="true" signature="1120:1167" ph="select * fro... tbl_category" />
+                <marker date="1497026394086" expanded="true" signature="1328:1570" ph="update tbl_c... " />
+                <marker date="1497026394086" expanded="true" signature="1608:1821" ph="update tbl_c... " />
+                <marker date="1497026394086" expanded="true" signature="1963:2011" ph="select * fro... tbl_category" />
+                <marker date="1497026394086" expanded="true" signature="2111:2196" ph="select * fro... tbl_category" />
+                <marker date="1497026394086" expanded="true" signature="2313:2374" ph="select * fro... tbl_category" />
+                <marker date="1497026394086" expanded="true" signature="2483:2547" ph="select * fro... tbl_category" />
+                <marker date="1497026394086" expanded="true" signature="2653:2727" ph="select name tbl_category" />
+                <marker date="1497026394086" expanded="true" signature="2836:2913" ph="select name tbl_category" />
+                <marker date="1497026394086" expanded="true" signature="3008:3046" ph="select * fro... tbl_category" />
+                <marker date="1497026394086" expanded="true" signature="3008:3056" ph="select * fro... tbl_category" />
+                <marker date="1497026394086" expanded="true" signature="3008:3971" ph="select * fro... tbl_category" />
+                <marker date="1497026394086" expanded="true" signature="3158:3209" ph="select * fro... tbl_category" />
+                <marker date="1497026394086" expanded="true" signature="3306:3333" ph="select * fro... tbl_category" />
+                <marker date="1497026394086" expanded="true" signature="3306:3343" ph="select * fro... tbl_category" />
+                <marker date="1497026394086" expanded="true" signature="3306:3344" ph="select * fro... tbl_category" />
+                <marker date="1497026394086" expanded="true" signature="3306:3385" ph="select * fro... tbl_category" />
+                <marker date="1497026394086" expanded="true" signature="3485:3554" ph="select * fro... tbl_category" />
+                <marker date="1497026394086" expanded="true" signature="3485:3567" ph="select * fro... tbl_category" />
+                <marker date="1497026394086" expanded="true" signature="3671:3753" ph="select * fro... tbl_category" />
+                <marker date="1497026394086" expanded="true" signature="3848:3884" ph="select * fro... tbl_category" />
+                <marker date="1497026394086" expanded="true" signature="3848:3923" ph="select * fro... tbl_category" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="model.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin783/libs/model.php">
+      <file leaf-file-name="details.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/view/dashboard/details.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+            <state relative-caret-position="234">
+              <caret line="9" column="18" lean-forward="false" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProductController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin783/controller/ProductController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="78" column="5" selection-start-line="78" selection-start-column="5" selection-end-line="78" selection-end-column="5" />
-              <folding>
-                <marker date="1473323559152" expanded="true" signature="178:302" placeholder="..." />
-                <marker date="1473323559152" expanded="true" signature="2251:2411" placeholder="//..." />
-              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="JavaScript File" />
-      </list>
-    </option>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>selectMainMenu</find>
+      <find>details</find>
+      <find>display</find>
+    </findStrings>
   </component>
-  <component name="FrameworkCommandLineHistory">
-    <commandsHistory>
-      <command text="echo &quot;header&quot;;" />
-      <command text="print &quot;fjdskl&quot;;" />
-      <command text="print&quot;kfs&quot;;" />
-    </commandsHistory>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/model/AdminModel.php" />
-        <option value="$PROJECT_DIR$/view/layout/footer.php" />
-        <option value="$PROJECT_DIR$/view/dashboard/index.php" />
-        <option value="$PROJECT_DIR$/public/dist/js/html5shiv.min.js" />
-        <option value="$PROJECT_DIR$/public/dist/js/respond.min.js" />
-        <option value="$PROJECT_DIR$/view/user/login.php" />
-        <option value="$PROJECT_DIR$/libs/SessionHelper.php" />
+        <option value="$PROJECT_DIR$/admin783/libs/controller.php" />
+        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/controller/DashboardController.php" />
-        <option value="$PROJECT_DIR$/libs/controller.php" />
-        <option value="$PROJECT_DIR$/controller/UserController.php" />
-        <option value="$PROJECT_DIR$/view/category/category.php" />
-        <option value="$PROJECT_DIR$/view/category/index.php" />
-        <option value="$PROJECT_DIR$/view/category/create.php" />
-        <option value="$PROJECT_DIR$/libs/model.php" />
-        <option value="$PROJECT_DIR$/model/CategoryModel.php" />
-        <option value="$PROJECT_DIR$/view/category/edit.php" />
-        <option value="$PROJECT_DIR$/controller/CategoryController.php" />
-        <option value="$PROJECT_DIR$/view/layout/header.php" />
-        <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/admin783/model/ProductModel.php" />
+        <option value="$PROJECT_DIR$/view/dashboard/details.php" />
+        <option value="$PROJECT_DIR$/admin783/model/CategoryModel.php" />
       </list>
     </option>
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" />
-  <component name="JsBuildToolPackageJson" detection-done="true" />
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="PhpServers">
-    <servers />
-  </component>
-  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP" />
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP 7" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="y" value="27" />
+    <option name="width" value="1366" />
+    <option name="height" value="741" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
-    <OptionsSetting value="true" id="Add" />
-    <OptionsSetting value="true" id="Remove" />
-    <OptionsSetting value="true" id="Checkout" />
-    <OptionsSetting value="true" id="Update" />
-    <OptionsSetting value="true" id="Status" />
-    <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
-    <ConfirmationsSetting value="0" id="Remove" />
-  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -175,195 +471,126 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="mvc" />
+              <option name="myItemId" value="cheers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cheers" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="mvc" />
+              <option name="myItemId" value="cheers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="mvc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mvc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mvc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemId" value="cheers" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="view" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cheers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cheers" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="layout" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="mvc" />
+              <option name="myItemId" value="cheers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="mvc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemId" value="cheers" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="view" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dashboard" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="mvc" />
+              <option name="myItemId" value="cheers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="mvc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mvc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mvc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin783" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mvc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mvc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin783" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="view" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mvc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mvc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin783" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="view" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="product" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mvc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mvc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin783" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mvc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mvc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin783" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="libs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mvc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mvc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin783" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemId" value="cheers" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="controller" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
-    <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../watermark" />
+    <property name="add_unversioned_files" value="$PROJECT_DIR$/.gitignore" />
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.php">
-    <configuration default="false" name="index.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/mvc/view/dashboard/index.php">
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="CodeceptionConfigurationType" factoryName="Codeception">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
       <method />
     </configuration>
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -377,446 +604,183 @@
     <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
       <method />
     </configuration>
+    <configuration default="true" type="PhpSpecConfigurationType" factoryName="PHPSpec">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <arguments />
-      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
-      <command value="run-script" />
+      <command value="run" />
       <scripts />
+      <node-interpreter value="project" />
       <envs />
       <method />
     </configuration>
-    <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.php" />
-    </list>
-    <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.php" />
-      </list>
-    </recent_temporary>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
   </component>
-  <component name="ShelveChangesManager" show_recycled="false" />
-  <component name="SvnConfiguration">
-    <configuration />
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="a66863cf-6072-47a9-82d0-c25a638442d3" name="Default" comment="" />
-      <created>1472116994803</created>
+      <changelist id="ed0b50f8-f94f-4c96-b222-24b06f7b8d15" name="Default" comment="" />
+      <created>1497022513300</created>
       <option name="number" value="Default" />
-      <updated>1472116994803</updated>
+      <option name="presentableId" value="Default" />
+      <updated>1497022513300</updated>
+      <workItem from="1497022514693" duration="3938000" />
     </task>
     <servers />
   </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="3938000" />
+  </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <frame x="0" y="27" width="1366" height="741" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13836017" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24962063" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39905363" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
-  <component name="Vcs.Log.UiProperties">
-    <option name="RECENTLY_FILTERED_USER_GROUPS">
-      <collection />
-    </option>
-    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-      <collection />
-    </option>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <option name="time" value="1" />
-    </breakpoint-manager>
+    <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.php">
+    <entry file="file://$PROJECT_DIR$/admin783/libs/controller.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+        <state relative-caret-position="208">
+          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin783/view/product/create.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="49" column="49" selection-start-line="49" selection-start-column="37" selection-end-line="49" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin783/model/ProductModel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1473324672247" expanded="true" signature="369:988" placeholder="insert into tbl_product... " />
-            <marker date="1473324672247" expanded="true" signature="1014:1633" placeholder="insert into tbl_product... " />
-            <marker date="1473324672247" expanded="true" signature="1727:1779" placeholder="select * fro... tbl_product" />
-            <marker date="1473324672247" expanded="true" signature="1850:1895" placeholder="delete from " />
-            <marker date="1473324672247" expanded="true" signature="1972:2018" placeholder="select * fro... tbl_product" />
-            <marker date="1473324672247" expanded="true" signature="2091:2386" placeholder="update tbl_p... " />
-            <marker date="1473324672247" expanded="true" signature="2462:2487" placeholder="select * fro... tbl_product" />
-            <marker date="1473324672247" expanded="true" signature="2560:2621" placeholder="select * fro... tbl_category" />
-            <marker date="1473324672247" expanded="true" signature="2700:2764" placeholder="select * fro... tbl_category" />
-            <marker date="1473324672247" expanded="true" signature="2840:2914" placeholder="select * fro... tbl_product" />
-            <marker date="1473324672247" expanded="true" signature="2992:3062" placeholder="select * fro... tbl_product" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin783/libs/model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin783/controller/ProductController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="78" column="5" selection-start-line="78" selection-start-column="5" selection-end-line="78" selection-end-column="5" />
-          <folding>
-            <marker date="1473323559152" expanded="true" signature="178:302" placeholder="..." />
-            <marker date="1473323559152" expanded="true" signature="2251:2411" placeholder="//..." />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+        <state relative-caret-position="-156">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin783/view/product/create.php">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="49" column="49" selection-start-line="49" selection-start-column="37" selection-end-line="49" selection-end-column="49" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin783/model/ProductModel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1473324672247" expanded="true" signature="369:988" placeholder="insert into tbl_product... " />
-            <marker date="1473324672247" expanded="true" signature="1014:1633" placeholder="insert into tbl_product... " />
-            <marker date="1473324672247" expanded="true" signature="1727:1779" placeholder="select * fro... tbl_product" />
-            <marker date="1473324672247" expanded="true" signature="1850:1895" placeholder="delete from " />
-            <marker date="1473324672247" expanded="true" signature="1972:2018" placeholder="select * fro... tbl_product" />
-            <marker date="1473324672247" expanded="true" signature="2091:2386" placeholder="update tbl_p... " />
-            <marker date="1473324672247" expanded="true" signature="2462:2487" placeholder="select * fro... tbl_product" />
-            <marker date="1473324672247" expanded="true" signature="2560:2621" placeholder="select * fro... tbl_category" />
-            <marker date="1473324672247" expanded="true" signature="2700:2764" placeholder="select * fro... tbl_category" />
-            <marker date="1473324672247" expanded="true" signature="2840:2914" placeholder="select * fro... tbl_product" />
-            <marker date="1473324672247" expanded="true" signature="2992:3062" placeholder="select * fro... tbl_product" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin783/libs/model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin783/controller/ProductController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="75" column="23" selection-start-line="75" selection-start-column="23" selection-end-line="75" selection-end-column="23" />
-          <folding>
-            <marker date="1473323559152" expanded="true" signature="178:302" placeholder="..." />
-            <marker date="1473323559152" expanded="true" signature="2251:2411" placeholder="//..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin783/view/product/create.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="49" column="49" selection-start-line="49" selection-start-column="37" selection-end-line="49" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin783/model/ProductModel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1473324672247" expanded="true" signature="369:988" placeholder="insert into tbl_product... " />
-            <marker date="1473324672247" expanded="true" signature="1014:1633" placeholder="insert into tbl_product... " />
-            <marker date="1473324672247" expanded="true" signature="1727:1779" placeholder="select * fro... tbl_product" />
-            <marker date="1473324672247" expanded="true" signature="1850:1895" placeholder="delete from " />
-            <marker date="1473324672247" expanded="true" signature="1972:2018" placeholder="select * fro... tbl_product" />
-            <marker date="1473324672247" expanded="true" signature="2091:2386" placeholder="update tbl_p... " />
-            <marker date="1473324672247" expanded="true" signature="2462:2487" placeholder="select * fro... tbl_product" />
-            <marker date="1473324672247" expanded="true" signature="2560:2621" placeholder="select * fro... tbl_category" />
-            <marker date="1473324672247" expanded="true" signature="2700:2764" placeholder="select * fro... tbl_category" />
-            <marker date="1473324672247" expanded="true" signature="2840:2914" placeholder="select * fro... tbl_product" />
-            <marker date="1473324672247" expanded="true" signature="2992:3062" placeholder="select * fro... tbl_product" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin783/libs/model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin783/controller/ProductController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="72" column="23" selection-start-line="72" selection-start-column="23" selection-end-line="72" selection-end-column="23" />
-          <folding>
-            <marker date="1473323559152" expanded="true" signature="178:302" placeholder="..." />
-            <marker date="1473323559152" expanded="true" signature="2251:2411" placeholder="//..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/view/layout/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="56" column="28" selection-start-line="56" selection-start-column="28" selection-end-line="56" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/view/dashboard/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="38" column="29" selection-start-line="0" selection-start-column="0" selection-end-line="51" selection-end-column="5" />
+        <state relative-caret-position="-78">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/dashboard/category.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-390">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/view/layout/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="55" column="80" selection-start-line="55" selection-start-column="80" selection-end-line="55" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/view/dashboard/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="38" column="29" selection-start-line="38" selection-start-column="29" selection-end-line="38" selection-end-column="29" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/controller/DashboardController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="2" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/view/dashboard/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="24" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/view/layout/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/DashboardController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/view/dashboard/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="24" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/view/layout/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/DashboardController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/DashboardController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="2" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/view/layout/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.1623034">
-          <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/view/dashboard/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="38" column="29" selection-start-line="0" selection-start-column="0" selection-end-line="51" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/view/layout/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.58638746">
-          <caret line="62" column="35" selection-start-line="62" selection-start-column="35" selection-end-line="62" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+        <state relative-caret-position="170">
+          <caret line="114" column="45" lean-forward="false" selection-start-line="114" selection-start-column="45" selection-end-line="114" selection-end-column="45" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin783/controller/ProductController.php">
+    <entry file="file://$PROJECT_DIR$/admin783/model/CategoryModel.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="78" column="5" selection-start-line="78" selection-start-column="5" selection-end-line="78" selection-end-column="5" />
+        <state relative-caret-position="236">
+          <caret line="95" column="59" lean-forward="false" selection-start-line="95" selection-start-column="59" selection-end-line="95" selection-end-column="59" />
           <folding>
-            <marker date="1473323559152" expanded="true" signature="178:302" placeholder="..." />
-            <marker date="1473323559152" expanded="true" signature="2251:2411" placeholder="//..." />
+            <marker date="1497026394086" expanded="true" signature="270:499" ph="insert into tbl_category... " />
+            <marker date="1497026394086" expanded="true" signature="537:737" ph="insert into tbl_category... " />
+            <marker date="1497026394086" expanded="true" signature="862:888" ph="select * fro... tbl_category" />
+            <marker date="1497026394086" expanded="true" signature="980:1025" ph="delete from " />
+            <marker date="1497026394086" expanded="true" signature="1120:1167" ph="select * fro... tbl_category" />
+            <marker date="1497026394086" expanded="true" signature="1328:1570" ph="update tbl_c... " />
+            <marker date="1497026394086" expanded="true" signature="1608:1821" ph="update tbl_c... " />
+            <marker date="1497026394086" expanded="true" signature="1963:2011" ph="select * fro... tbl_category" />
+            <marker date="1497026394086" expanded="true" signature="2111:2196" ph="select * fro... tbl_category" />
+            <marker date="1497026394086" expanded="true" signature="2313:2374" ph="select * fro... tbl_category" />
+            <marker date="1497026394086" expanded="true" signature="2483:2547" ph="select * fro... tbl_category" />
+            <marker date="1497026394086" expanded="true" signature="2653:2727" ph="select name tbl_category" />
+            <marker date="1497026394086" expanded="true" signature="2836:2913" ph="select name tbl_category" />
+            <marker date="1497026394086" expanded="true" signature="3008:3046" ph="select * fro... tbl_category" />
+            <marker date="1497026394086" expanded="true" signature="3008:3056" ph="select * fro... tbl_category" />
+            <marker date="1497026394086" expanded="true" signature="3008:3971" ph="select * fro... tbl_category" />
+            <marker date="1497026394086" expanded="true" signature="3158:3209" ph="select * fro... tbl_category" />
+            <marker date="1497026394086" expanded="true" signature="3306:3333" ph="select * fro... tbl_category" />
+            <marker date="1497026394086" expanded="true" signature="3306:3343" ph="select * fro... tbl_category" />
+            <marker date="1497026394086" expanded="true" signature="3306:3344" ph="select * fro... tbl_category" />
+            <marker date="1497026394086" expanded="true" signature="3306:3385" ph="select * fro... tbl_category" />
+            <marker date="1497026394086" expanded="true" signature="3485:3554" ph="select * fro... tbl_category" />
+            <marker date="1497026394086" expanded="true" signature="3485:3567" ph="select * fro... tbl_category" />
+            <marker date="1497026394086" expanded="true" signature="3671:3753" ph="select * fro... tbl_category" />
+            <marker date="1497026394086" expanded="true" signature="3848:3884" ph="select * fro... tbl_category" />
+            <marker date="1497026394086" expanded="true" signature="3848:3923" ph="select * fro... tbl_category" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin783/libs/model.php">
+    <entry file="file://$PROJECT_DIR$/view/dashboard/details.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        <state relative-caret-position="234">
+          <caret line="9" column="18" lean-forward="false" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin783/view/product/create.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="49" column="49" selection-start-line="49" selection-start-column="37" selection-end-line="49" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin783/model/ProductModel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.29319373">
-          <caret line="18" column="66" selection-start-line="18" selection-start-column="66" selection-end-line="18" selection-end-column="66" />
-          <folding>
-            <marker date="1473324672247" expanded="true" signature="369:988" placeholder="insert into tbl_product... " />
-            <marker date="1473324672247" expanded="true" signature="1014:1633" placeholder="insert into tbl_product... " />
-            <marker date="1473324672247" expanded="true" signature="1727:1779" placeholder="select * fro... tbl_product" />
-            <marker date="1473324672247" expanded="true" signature="1850:1895" placeholder="delete from " />
-            <marker date="1473324672247" expanded="true" signature="1972:2018" placeholder="select * fro... tbl_product" />
-            <marker date="1473324672247" expanded="true" signature="2091:2386" placeholder="update tbl_p... " />
-            <marker date="1473324672247" expanded="true" signature="2462:2487" placeholder="select * fro... tbl_product" />
-            <marker date="1473324672247" expanded="true" signature="2560:2621" placeholder="select * fro... tbl_category" />
-            <marker date="1473324672247" expanded="true" signature="2700:2764" placeholder="select * fro... tbl_category" />
-            <marker date="1473324672247" expanded="true" signature="2840:2914" placeholder="select * fro... tbl_product" />
-            <marker date="1473324672247" expanded="true" signature="2992:3062" placeholder="select * fro... tbl_product" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="Copyright.UI">
-        <settings>
-          <last-edited>sbimochan copyright</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>

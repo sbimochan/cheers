@@ -3,11 +3,11 @@ class DashboardController extends Controller{
   public function index(){
     $category= $this->loadModel('category',true);
     $product= $this->loadModel('product',true);
-    $this->menuitem = $category->selectMainMenu();
+    $this->menuitem = $category->selectAllMainCategory();
     // print_r($category);
     // $this->menuitem = $category->selectMainMenu();
 
-		$subcat=$this->submenuitem = $category->selectSubCategoryMenu();
+		$subcat=$this->submenuitem = $category->selectSubcategory();
 
     $arr = array();
     foreach ($subcat as $scl) {
@@ -16,7 +16,7 @@ class DashboardController extends Controller{
     }
     $this->subcat = $arr;
 
-    $this->selectedsubmenu=$category->selectSelectedsubmenu();
+    $this->selectedsubmenu=$category->selectAllActiveSubcategory();
 
     $this->slider = $product->selectSliderImages();
     $this->latestproduct = $product->selectLatestProduct();
@@ -24,10 +24,11 @@ class DashboardController extends Controller{
       $this->loadView('dashboard/index');
 
 
+
   }
   function contact(){
      $category= $this->loadModel('category',true);
- 
+
     $this->menuitem = $category->selectMainMenu();
     // print_r($category);
     // $this->menuitem = $category->selectMainMenu();
@@ -39,7 +40,7 @@ class DashboardController extends Controller{
   }
    function login(){
      $category= $this->loadModel('category',true);
- 
+
     $this->menuitem = $category->selectMainMenu();
     // print_r($category);
     // $this->menuitem = $category->selectMainMenu();
@@ -51,7 +52,7 @@ class DashboardController extends Controller{
   }
   function register(){
      $category= $this->loadModel('category',true);
- 
+
     $this->menuitem = $category->selectMainMenu();
     // print_r($category);
     // $this->menuitem = $category->selectMainMenu();
@@ -67,7 +68,7 @@ class DashboardController extends Controller{
     $category= $this->loadModel('category',true);
      $product= $this->loadModel('product',true);
     $this->menuitem = $category->selectMainMenu();
-    
+
     $this->submenuitem = $category->selectSubCategoryMenu();
  $this->all= $product->SelectAllProduct();
 
@@ -95,7 +96,7 @@ class DashboardController extends Controller{
         $this->loadView('dashboard/category');
   }
   // function categoryname($category_id){
-  //     print_r($category_id); 
+  //     print_r($category_id);
   //     $category=$this->loadModel('category',true);
   //    $product= $this->loadModel('product',true);
   //    $this->menuitem = $category->selectMainMenu();
@@ -125,12 +126,12 @@ class DashboardController extends Controller{
      //  $this->sorted=$category->categoryName($category_id);
 
        $this->sortedProduct = $product->displaySortedsubProductModel($subcategory_id);
-       
+
       $this->loadView('dashboard/sortedcategory');
   }
   // function addToCart($id){
   //   print_r($id);
-    
+
   //   $category=$this->loadModel('category',true);
   //    $product= $this->loadModel('product',true);
   //    $this->menuitem = $category->selectMainMenu();
@@ -138,7 +139,7 @@ class DashboardController extends Controller{
   //    $this->addProduct = $product->addToBasket($id);
   //   $this->loadView('dashboard/basket');
   // }
-  
+
 }
 
  ?>

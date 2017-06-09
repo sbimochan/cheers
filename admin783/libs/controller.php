@@ -1,5 +1,18 @@
 <?php
 class Controller{
+	var $view;
+	function __construct(){
+
+//		$this->view=new View();
+	}
+	public function checkLoginStatus()
+	{
+		session_start();
+		if (!isset($_SESSION['username'])){
+			$this->redirect('user/login');
+			//header("location:../user/login");
+		}
+	}
 	public function redirect($path){
 		$p = base_url() . $path;
 		header("location:$p");

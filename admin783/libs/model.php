@@ -2,7 +2,7 @@
 class Model{
 	protected $conn;
 	function connect(){
-		$this->conn = new mysqli('localhost','root','','cheersdb');
+		$this->conn = new mysqli('localhost','root','toor','cheersdb');
 		if($this->conn->connect_errno !=0){
 			die('Database Connection Error');
 		}
